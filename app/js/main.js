@@ -33,6 +33,7 @@ $(function () {
 
   $('.travel__slider').slick({
     infinite: true,
+    fade: true,
     prevArrow: '<button type = "button" class= "slick-arrows arrow-left" ><img src="images/arrows-left.svg" alt=""></button>',
     nextArrow: '<button type = "button" class= "slick-arrows arrow-right" ><img src="images/arrows-right.svg" alt=""></button>',
   });
